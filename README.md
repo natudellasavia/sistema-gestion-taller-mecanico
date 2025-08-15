@@ -3,6 +3,8 @@ TRABAJO PRÁCTICO FINAL DE LA MATERIA PROGRAMACIÓN II. UTN FACULTAD REGIONAL PA
 
 TIPO DE PROYECTO: Sistema de gestión de archivos - Taller mecánico
 
+Trabajo grupal (dos integrantes) con el fin de demostrar lo aprendido en clase con respecto a programación orientada a objetos, (clases, composición, entre otras cosas) y manejo de archivos.
+
 El sistema a desarrollar permitirá gestionar las reparaciones que se llevan a cabo en un taller mecánico (que trabaja únicamente con algunas marcas en particular).
 Contando con un menú principal y submenús que serán la interfaz gráfica para la gestión de los clientes, vehículos y las reparaciones propiamente.
 
@@ -19,3 +21,4 @@ y contarán además con el cuit del cliente, la patente del vehículo, descripci
 Se podrán realizar listados ordenados según id reparación, cliente, vehículo e importe. 
 Y se podrá filtrar la información con los mismos criterios, pudiendo hacerlo además por rango de importes y fechas de ingreso. 
 Y saber cuáles son las reparaciones que se están llevando a cabo a la fecha actual
+
