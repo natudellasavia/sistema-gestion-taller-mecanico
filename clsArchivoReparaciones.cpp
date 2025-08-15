@@ -253,11 +253,8 @@ int ArchivoReparaciones::listadoReparacionesPorId() {
 
     for (int i = 0; i < cantidadRegistros; i++) {
         Reparacion reg = archiReparaciones.leerRegistro(i);
-        // VALIDAMOS QUE LA REPARACION ESTE ACTIVA
-        if (reg.getEstadovehiculo()) {
-            vec[cantMemDinamica] = reg; // Guardamos el registro solo si está activo
-            cantMemDinamica++;
-        }
+        vec[cantMemDinamica] = reg; // Guardamos el registro solo si está activo
+        cantMemDinamica++;
     }
 
     // Ordenamos el archivo en memoria dinámica por número de ID
@@ -294,11 +291,8 @@ int ArchivoReparaciones::listadoReparacionesPorCliente(){
 
     for (int i = 0; i < cantidadRegistros; i++) {
         Reparacion reg = archiReparaciones.leerRegistro(i);
-        // VALIDAMOS QUE LA REPARACION ESTE ACTIVA
-        if (reg.getEstadovehiculo()) {
-            vec[cantMemDinamica] = reg; // Guardamos el registro solo si está activo
-            cantMemDinamica++;
-        }
+        vec[cantMemDinamica] = reg; // Guardamos el registro solo si está activo
+        cantMemDinamica++;
     }
 
     // Ordenamos el archivo en memoria dinámica por número de ID
@@ -335,11 +329,8 @@ int ArchivoReparaciones::listadoReparacionesPorVehiculo(){
 
     for (int i = 0; i < cantidadRegistros; i++) {
         Reparacion reg = archiReparaciones.leerRegistro(i);
-        // VALIDAMOS QUE LA REPARACION ESTE ACTIVA
-        if (reg.getEstadovehiculo()) {
-            vec[cantMemDinamica] = reg; // Guardamos el registro solo si está activo
-            cantMemDinamica++;
-        }
+        vec[cantMemDinamica] = reg; // Guardamos el registro solo si está activo
+        cantMemDinamica++;
     }
 
     // Ordenamos el archivo en memoria dinámica por número de ID
@@ -377,11 +368,8 @@ int ArchivoReparaciones::listadoReparacionesPorImporte(){
 
     for (int i = 0; i < cantidadRegistros; i++) {
         Reparacion reg = archiReparaciones.leerRegistro(i);
-        // VALIDAMOS QUE LA REPARACION ESTE ACTIVA
-        if (reg.getEstadovehiculo()) {
-            vec[cantMemDinamica] = reg; // Guardamos el registro solo si está activo
-            cantMemDinamica++;
-        }
+        vec[cantMemDinamica] = reg; // Guardamos el registro solo si está activo
+        cantMemDinamica++;
     }
 
     // Ordenamos el archivo en memoria dinámica por número de ID
