@@ -1,7 +1,7 @@
 TRABAJO PRÁCTICO FINAL DE LA MATERIA PROGRAMACIÓN II. UTN FACULTAD REGIONAL PACHECO.
 1ER CUATRIMESTRE, AÑO 2025
 
-TIPO DE PROYECTO: Sistema de gestión de archivos - Taller mecánico
+TIPO DE PROYECTO: Sistema de gestión - Taller mecánico
 
 Trabajo grupal (dos integrantes) con el fin de demostrar lo aprendido en clase con respecto a programación orientada a objetos, (clases, composición, entre otras cosas) y manejo de archivos.
 
